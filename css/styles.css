@@ -1,0 +1,52 @@
+* {
+  font-family: "Verdana";
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#box-shadow-generator {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#controls-container,
+#preview {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Controls */
+.form-control {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.range-input {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-control input[type="text"] {
+  height: 30px;
+  width: 30px;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+#box {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(213, 23, 23);
+}
