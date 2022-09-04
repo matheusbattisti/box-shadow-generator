@@ -24,7 +24,10 @@
               value="5"
             />
           </div>
-          <input type="text" id="horizontal-value" name="horizontal-value" />
+          <div class="reference-input">
+            <input type="text" id="horizontal-value" name="horizontal-value" />
+            <p>px</p>
+          </div>
         </div>
         <div class="form-control">
           <div class="range-input">
@@ -38,7 +41,10 @@
               value="5"
             />
           </div>
-          <input type="text" id="vertical-value" name="vertical-value" />
+          <div class="reference-input">
+            <input type="text" id="vertical-value" name="vertical-value" />
+            <p>px</p>
+          </div>
         </div>
         <div class="form-control">
           <div class="range-input">
@@ -52,7 +58,10 @@
               value="10"
             />
           </div>
-          <input type="text" id="blur-value" name="blur-value" />
+          <div class="reference-input">
+            <input type="text" id="blur-value" name="blur-value" />
+            <p>px</p>
+          </div>
         </div>
         <div class="form-control">
           <div class="range-input">
@@ -66,7 +75,19 @@
               value="3"
             />
           </div>
-          <input type="text" id="spread-value" name="spread-value" />
+          <div class="reference-input">
+            <input type="text" id="spread-value" name="spread-value" />
+            <p>px</p>
+          </div>
+        </div>
+        <div class="form-control">
+          <div class="range-input">
+            <label for="color">Cor da sombra:</label>
+            <input type="color" id="color" name="color" value="#000000" />
+          </div>
+          <div class="reference-input">
+            <input type="text" id="color-value" name="color-value" />
+          </div>
         </div>
       </div>
       <div id="preview">
@@ -76,9 +97,11 @@
     </div>
     <div id="generated-rule">
       <h2>Copie e cole no seu arquivo de CSS:</h2>
-      <p id="rule">box-shadow: <span></span></p>
-      <p id="webkit-rule">-webkit-box-shadow: <span></span></p>
-      <p id="moz-rule">-moz-box-shadow: <span></span></p>
+      <div id="rules-area">
+        <p id="rule">box-shadow: <span></span></p>
+        <p id="webkit-rule">-webkit-box-shadow: <span></span></p>
+        <p id="moz-rule">-moz-box-shadow: <span></span></p>
+      </div>
     </div>
   </body>
 </html>
