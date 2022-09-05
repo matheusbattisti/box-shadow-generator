@@ -75,20 +75,29 @@ h2 {
   text-align: center;
 }
 
+/* Comu */
+#color-value {
+  min-width: 100px;
+}
+
+#inset {
+  align-self: start;
+  height: 20px;
+  width: 20px;
+}
+
+/* Preview */
 #box {
   width: 100%;
   height: 300px;
   background-color: #e9d60a;
 }
 
-/* Comu */
-#color-value {
-  min-width: 100px;
-}
-
 /* Área de geração */
 #generated-rule {
   text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
 }
 
 #generated-rule p {
@@ -97,8 +106,19 @@ h2 {
 
 #rules-area {
   background-color: #d3d3d3;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   border: 2px solid #e9d60a;
   padding: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#rules-area:hover {
+  background-color: #dfdfdf;
+}
+
+#copy-instructions {
+  margin-top: 1rem;
+  font-style: italic;
 }
